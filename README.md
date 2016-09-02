@@ -89,3 +89,9 @@ To Subracts year
 	Example:
 	date.subYear(years) - Subracts year to the current date.
 	date.subYear(years, "Aug-01-2015 09:40", "MMM-dd-YYYY hh:ii") - Subracts year to the input date.
+	
+To Compare Date
+	prototype - compareDate(date1, format1, date2, format2);
+
+	Example:
+	date.compareDate("26-08-2016 10:29:54:544 AM", "dd-mm-YYYY hh:ii:ss:mi ap", "Aug 26 16 10-29 54:543 AM", "MMM dd yy hh-ii ss:mi ap")
